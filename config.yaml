@@ -1,0 +1,8 @@
+path: F:\PrototypeModel\rework\reworked_data
+train: images/train
+val: images/val
+
+names:
+  0: plate
+  1: bowl
+  2: drink
