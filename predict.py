@@ -8,8 +8,7 @@ import csv
 
 
 
-model_det = YOLO(r'F:\PrototypeModel\rework\runs\detect\train11\weights\best.pt')
-
+model_det = YOLO(r'runs\detect\train11\weights\best.pt')
 # %%
 def pass_to_csv(labels):
 
