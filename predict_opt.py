@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 
-
+#отсюда терминал получает предикт
 
 model_det = YOLO(r'runs\detect\train11\weights\best.pt')
 

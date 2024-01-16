@@ -4,6 +4,9 @@ import cv2
 from PIL import Image, ImageTk
 import predict_opt
 import choose
+"""Эмуляция терминала ,который сохраняет в json labels в фрейме,при выборе Confirm сохраняет label в json в формате индексов
+,которые находятся в config.yaml ,при отказе происходит повторение фрейма и предикта на нем(не работает пока что)
+"""
 class CountdownApp:
     def __init__(self, master):
         self.master = master

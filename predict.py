@@ -7,7 +7,7 @@ import os
 import csv
 import time 
 
-
+#Стриминговая модель(она при нажатии сохраняет в csv(файл в целях пока работы в потоке ,я его не использую))
 
 model_det = YOLO(r'runs\detect\train11\weights\best.pt')
 
